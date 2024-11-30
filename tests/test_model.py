@@ -1,6 +1,7 @@
 import joblib
 from sklearn.linear_model import LinearRegression
 import unittest
+import numpy as np
 
 class TestModel(unittest.TestCase):
     def test_model(self):
