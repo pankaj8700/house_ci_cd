@@ -1,3 +1,7 @@
+import joblib
+from sklearn.linear_model import LogisticRegression
+import unittest
+
 class TestModel(unittest.TestCase):
     def test_model(self):
         model = joblib.load('model/house.pkl')
