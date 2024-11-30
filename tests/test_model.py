@@ -1,5 +1,5 @@
 import joblib
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
 import unittest
 
 class TestModel(unittest.TestCase):
